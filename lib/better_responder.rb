@@ -1,5 +1,5 @@
 require "better_responder/version"
 
 module BetterResponder
-  # Your code goes here...
+  autoload :Responder, 'better_responder/responder'
 end
